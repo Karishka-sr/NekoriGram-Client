@@ -1,22 +1,22 @@
-## Telegram messenger for Android
+## NekoriGram messenger for Android
 
-[Telegram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
-This repo contains the official source code for [Telegram App for Android](https://play.google.com/store/apps/details?id=org.telegram.messenger).
+[NekoriGram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
+This repo contains the official source code for [NekoriGram App for Android](https://play.google.com/store/apps/details?id=org.telegram.messenger).
 
-## Creating your Telegram Application
+## Creating your NekoriGram Application
 
 We welcome all developers to use our API and source code to create applications on our platform.
 There are several things we require from **all developers** for the moment.
 
 1. [**Obtain your own api_id**](https://core.telegram.org/api/obtaining_api_id) for your application.
-2. Please **do not** use the name Telegram for your app — or make sure your users understand that it is unofficial.
+2. Please **do not** use the name NekoriGram for your app — or make sure your users understand that it is unofficial.
 3. Kindly **do not** use our standard logo (white paper plane in a blue circle) as your app's logo.
 3. Please study our [**security guidelines**](https://core.telegram.org/mtproto/security_guidelines) and take good care of your users' data and privacy.
 4. Please remember to publish **your** code too in order to comply with the licences.
 
 ### API, Protocol documentation
 
-Telegram API manuals: https://core.telegram.org/api
+NekoriGram API manuals: https://core.telegram.org/api
 
 MTproto protocol manuals: https://core.telegram.org/mtproto
 
@@ -26,11 +26,11 @@ MTproto protocol manuals: https://core.telegram.org/mtproto
 
 You will require Android Studio 2025.1.4, Android NDK 27.2.12479018 and Android SDK 36.
 
-1. Clone the Telegram source code with its submodules:
+1. Clone the NekoriGram source code with its submodules:
    ```bash
    git clone --recursive --shallow-submodules https://github.com/DrKLO/Telegram.git Telegram
    ```
-   In case you forgot the `--recursive` flag, change to the `Telegram` directory and run:
+   In case you forgot the `--recursive` flag, change to the `NekoriGram` directory and run:
    ```bash
    git submodule init && git submodule update --init --recursive --depth=1
    ```
